@@ -6,7 +6,7 @@
   <ItemDefinitionGroup>
     <Link>
       <AdditionalLibraryDirectories>$(PlatformDepsDir)\openal\lib;$(PlatformDepsDir)\libvorbis\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libvorbis$(LibSuffix)-vc$(PlatformToolsetVersion).lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libvorbis$(LibSuffix)-vc143.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
       <AdditionalIncludeDirectories>$(WinDepsDir)openal\include;$(WinDepsDir)openal\include\AL;$(WinDepsDir)libvorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

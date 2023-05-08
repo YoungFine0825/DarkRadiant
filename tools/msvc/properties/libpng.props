@@ -9,7 +9,7 @@
     </ClCompile>
     <Link />
     <Link>
-      <AdditionalDependencies>libpng$(LibSuffix)-vc$(PlatformToolsetVersion).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpng$(LibSuffix)-vc143.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(PlatformDepsDir)\libpng\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

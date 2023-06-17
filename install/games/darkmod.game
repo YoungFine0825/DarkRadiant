@@ -12,7 +12,7 @@
   prefix=""
   basegame=""
   archivetypes="pk4"
-  modeltypes="lwo ase md5mesh md3"
+  modeltypes="lwo ase md5mesh md3 fbx"
   maptypes="mapdoom3"
   shaders="doom3"
   entityclass="doom3"
@@ -34,6 +34,7 @@
 			<extension>tga</extension>
 			<extension>jpg</extension>
 			<extension>dds</extension>
+			<extension>png</extension>
 		</texture>
 	</filetypes>
 
